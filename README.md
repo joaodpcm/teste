@@ -6,3 +6,4 @@ isso é apenas um teste, para me fami
 mexendo no readme pelo github
 quero deletar isso
 quero manter essa linha
+nomeando esse commit pelo vscode
