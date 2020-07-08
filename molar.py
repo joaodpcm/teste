@@ -2,9 +2,9 @@
 #importing librarys
 import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument("massamolar","-MM", type=int, help="massa molar")
-parser.add_argument("concentração","-c", type=int, help="concentração grama/litro")
+parser = argparse.ArgumentParser(description='calcular molaridade')
+parser.add_argument("-MM","--massamolar", type=int, help="massa molar")
+parser.add_argument("-c","--concentração", type=int, help="concentração grama/litro")
 args = parser.parse_args()
 
 def molaridade (massamolar, concentração):
